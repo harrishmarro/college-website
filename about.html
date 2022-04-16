@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>
+            University website
+        </title>
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="mainpage.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="mainpage.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-coln">
+                <h1>We bring you the World's best university with Worldclass infrastructure</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repudiandae ex vero consequatur possimus vitae omnis, sequi sit incidunt nostrum ut officia laudantium recusandae tenetur perspiciatis porro, rem laborum aut!Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repudiandae ex vero consequatur possimus vitae omnis, sequi sit incidunt nostrum ut officia laudantium recusandae tenetur perspiciatis porro, rem laborum aut!Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repudiandae ex vero consequatur possimus vitae omnis, sequi sit incidunt nostrum ut officia laudantium recusandae tenetur perspiciatis porro, rem laborum aut!Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repudiandae ex vero consequatur possimus vitae omnis, sequi sit incidunt .</p>
+               <a href="" class="btn red-btn">Explore More</a>
+            </div>
+            <div class="about-coln">
+                <img src="about.jpg">
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            we think that i have chosen the best university.<br>It has its world class infrastructure and the faculties are very friendly among us.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <script>
+        var navlinks=document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right="0";
+
+        }function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
