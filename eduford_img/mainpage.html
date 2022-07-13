@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="logo.png">
+        <title>
+            University website
+        </title>
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="mainpage.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="mainpage.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's best university</h1>
+            <p>Still in the experimental stage, cancer vaccines are designed to stimulate the body’s own immune system to destroy a tumor. Biologists have identified new protein targets for these vaccines, which help rejuvenate “exhausted” T cells and boost the immune response.</p>
+            <a href="" class="btn">Visit us to know more...</a>
+
+        </div>
+
+    </section>
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>Under graduate</h3>
+                <p>Undergraduate education is education conducted after secondary education and prior to postgraduate education. </p>
+            </div>
+            <div class="course-col">
+                <h3>Post graduate</h3>
+                <p>Postgraduate education involves learning and studying for academic or professional degrees, academic or professional certificates, academic or professional diplomas, or other qualifications for which a first or bachelor's degree generally is required, and it is normally considered to be part of higher education. </p>
+            </div>
+            <div class="course-col">
+                <h3>Masters</h3>
+                <p>A master's degree is an academic degree awarded by universities or colleges upon completion of a course of study demonstrating mastery or a high-order overview of a specific field of study or area of professional practice.</p>
+            </div>
+        </div>
+    </section>
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <div class="row">
+            <div class="campus-col">
+                <img src="london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="newyork.png">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="library.png">
+                <h3>Library</h3>
+                <p>A library is a collection of materials, books or media that are easily accessible for use and not just for display purposes. It is responsible for housing updated information in order to meet the user's needs on a daily basis.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="basketball.png">
+                <h3>Playground</h3>
+                <p>A playground, playpark, or play area is a place designed to provide an environment for children that facilitates play, typically outdoors. While a playground is usually designed for children, some are designed for other age groups, or people with disabilities.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="cafeteria.png">
+                <h3>Cafe</h3>
+                <p>A café is a type of restaurant which typically serves coffee and tea, in addition to light refreshments such as baked goods or snacks. The term "café" comes from the French word meaning "coffee".</p>
+            </div>
+        </div>
+    </section>
+    <Section class="testimonials">
+        <h1>Students Review</h1>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="user1.jpg">
+                <p>we think that i have chosen the best university .It has its world class infrastructure and the faculties are very friendly among us.</p>
+                <h3>Sarah Corner</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                
+            </div>
+            <div class="testimonial-col">
+                <img src="user2.jpg">
+                
+                <p>we think that i have chosen the best university .It has its world class infrastructure and the faculties are very friendly among us.</p>
+                <h3>John Kently</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </Section>
+    <section class="cta">
+        <h1>For futher details about the courses and other queries </h1>
+        <a href="" class="btn">Contact Us</a>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            we think that i have chosen the best university.<br>It has its world class infrastructure and the faculties are very friendly among us.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <script>
+        var navlinks=document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right="0";
+
+        }function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
